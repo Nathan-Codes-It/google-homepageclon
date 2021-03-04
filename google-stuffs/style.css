@@ -1,3 +1,20 @@
 body{
-    background-color: antiquewhite;
+    background-color:rgb(255, 255, 255);
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  margin-top: 150px;
+    height: 50%;
+    width:50%;
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width:200px;
+    size:125%;
+    border-radius: 25%;
 }
