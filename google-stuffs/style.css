@@ -6,7 +6,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-  margin-top: -160px;
+  margin-top: -175px;
   margin-bottom: 0px;
     height: 25%;
     width:25%;
@@ -38,4 +38,18 @@ img{
 }
 ::placeholder {
     font-size: larger;
+}
+.topleftgmail {
+    text-align: right;
+ margin-top: -270px;
+ margin-right: 50px;
+ font-size: 15px;
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    src:url(roboto);
+}
+.imagesvg1{
+    
+    height: 100px;
+    width: 100px;
 }
