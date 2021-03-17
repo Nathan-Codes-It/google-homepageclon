@@ -1,4 +1,4 @@
-body{
+/* body{
     background:#FFFFFF;
     margin:0;
 }
@@ -33,7 +33,7 @@ body{
     z-index: 10;
     border-radius: 10px;
     border: none;
-    background: #FFFFFF; /* Set the bg image here. with "no-repeat" */
+    background: #FFFFFF; 
     box-shadow: 2px 1px 2px 1px  #888888;
 }
 ::placeholder {
@@ -58,7 +58,7 @@ body{
 }
  .imagesvg1:hover{
      background-color: gray;
-     opacity: 25%;
+     opacity: 15%;
      size: 120%;
  }
 
@@ -70,6 +70,44 @@ body{
  }
  .topleftgmailsvg:hover{
     background-color: gray;
-    opacity: 25%;
+    opacity: 15%;
     size: 120%;
+ } */
+
+ body{
+     height:98vh;
+     display: flex;
+     flex-direction: column;
+     justify-content:space-between;
  }
+ nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+ }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+ }
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+ }
+ .inputsearch{
+   width: 100%;
+   height:45px;
+   border: 10px;
+   border-color: green      ;
+   border-width: 100px;
+   width:500px;
+   font-size:16px;
+   outline:100px;
+   outline-color: lightgray;
+   box-shadow: 2px 1px 2px 1px  #888888;
+   border-radius: 10px;
+   
+ }
+ 
